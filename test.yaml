@@ -1,0 +1,119 @@
+---
+ex1:
+ test1:
+  input:
+   - idodoroz
+  output:
+   - zorododi
+ test2:
+  input:
+   - "123456"
+  output:
+   - "654321"
+ex2:
+ test1:
+  input:
+   - idodoroz
+  output:
+   - False
+ test2:
+  input:
+   - aabbccbbaa
+  output:
+   - True
+ test3:
+  input:
+   - "ido odi"
+  output:
+   - True
+ test4:
+  input:
+   - "ido od ii"
+  output:
+   - False
+ex3:
+ test1:
+  input:
+   - magshimim
+  output:
+   - True
+ test2:
+  input:
+   - "*m=ags%hi-mim!!"
+  output:
+   - False
+ex4:
+ test1:
+  input:
+   - tottt
+  output:
+   - 4
+ test2:
+  input:
+   - idodoroz
+  output:
+   - 1
+ex6:
+ test1:
+  input:
+   - HearthStone
+  output:
+   - "48656172746853746f6e65"
+ test2:
+  input:
+   - "Game of Thrones"
+  output:
+   - "47616d65206f66205468726f6e6573"
+ex7:
+ test1:
+  input:
+   - "ido"
+   - 7
+   - '#'
+  output:
+   - "ido"
+ test2:
+  input:
+   - "amit"
+   - 10
+   - '8'
+  output:
+   - "amit"
+ test3:
+  input:
+   - "Master Of Puppets"
+   - 5
+   - '%'
+  output:
+   - "%%%%%%%%%%%%Master Of Puppets"
+ex8:
+ test1:
+  input:
+   - "why the world is so wonderful?"
+  output:
+   - "why the *orld is so *onderful?"
+ test2:
+  input:
+   - "omg! python is so awsome!"
+  output:
+   - "omg! pyth*n is s* aws*me!"
+ex9:
+ test1:
+  input:
+   - "Enter"
+   - "Sandman"
+  output:
+   - "Sater Enndman"
+ test2:
+  input:
+   - "me"
+   - "no"
+  output:
+   - "no me"
+ test3:
+  input:
+   - "i"
+   - "o"
+  output:
+   - "o i"
+...
